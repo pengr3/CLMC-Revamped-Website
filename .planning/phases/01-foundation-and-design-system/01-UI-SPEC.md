@@ -65,16 +65,14 @@ Exceptions:
 
 | Role | Size | Weight | Line Height | Letter Spacing | Usage |
 |------|------|--------|-------------|---------------|-------|
-| Body | 16px (1rem) | 400 (regular) | 1.6 | 0em | Paragraphs, descriptions, footer copy |
-| Label / UI | 14px (0.875rem) | 500 (medium) | 1.4 | 0.01em | Nav links, button labels, tags, captions |
-| Subheading / H3–H4 | 20px (1.25rem) | 600 (semibold) | 1.3 | -0.01em | Section subheadings, card titles |
-| Heading / H2 | 36px (2.25rem) | 700 (bold) | 1.2 | -0.02em | Section headings (used in Phase 3+) |
-| Display / H1 | 80px (5rem) desktop / 48px (3rem) mobile | 700 (bold) | 1.05 | -0.03em | Hero headlines (used in Phase 3) |
-| Hero max / H1 XL | 120px (7.5rem) desktop only | 700 (bold) | 1.0 | -0.04em | Full-bleed cinematic hero (Phase 3) |
+| Label / UI | 14px (0.875rem) | 400 (regular) | 1.4 | 0.01em | Nav links, button labels, tags, captions, footer text |
+| Body | 16px (1rem) | 400 (regular) | 1.6 | 0em | Paragraphs, descriptions |
+| Subheading / H3–H4 | 20px (1.25rem) | 700 (bold) | 1.3 | -0.01em | Section subheadings, card titles |
+| Heading / H2 | 36px (2.25rem) | 700 (bold) | 1.2 | -0.02em | Section headings — token declared in Phase 1, first rendered in Phase 3+ |
 
-Weights in use: **400 (regular)** and **700 (bold)** — with **500 (medium)** for UI labels and **600 (semibold)** for subheadings. Inter supports all four natively.
+Weights in use: **400 (regular)** and **700 (bold)** only. Inter and Geist both support these natively.
 
-> Note: Display/H1 sizes (80–120px) and H2 (36px) are declared now as tokens but will only appear in rendered content in Phase 3+. Phase 1 establishes the token system; the Navbar and Footer use Label (14px) and Subheading (20px) scales only.
+> Note: Display/H1 sizes (80–120px) are deferred to the Phase 3 UI-SPEC where the hero is first rendered. Phase 1 components (Navbar, Footer, UI atoms) use Label (14px) and Subheading (20px) only. The Heading token (36px) is declared for forward-compatibility but not rendered in this phase.
 
 ---
 
@@ -125,6 +123,8 @@ Never used for: decorative borders, body text (use `--color-text-primary`), back
 
 This section is Phase 1 specific. Navbar is the primary interactive component built in this phase.
 
+Primary focal point: CLMC logo wordmark — leftmost Navbar element, highest visual weight in the Phase 1 shell.
+
 | State | Background | Blur | Border | Logo Color | Link Color |
 |-------|-----------|------|--------|-----------|-----------|
 | Default (scroll < 80px) | `transparent` | none | none | `#F5F5F5` | `#F5F5F5` |
@@ -139,7 +139,7 @@ Logo: Text `"CLMC"` — Geist, weight 700, size 20px, color `#F5F5F5`, letter-sp
 
 Hamburger: 3-line icon morphs to X on open. Lines are `2px` height, `24px` width, `#F5F5F5`. CSS transform animation: top line rotates `+45deg`, bottom line rotates `-45deg`, middle line fades to `opacity: 0`. Duration: `200ms ease-out`.
 
-Mobile overlay: full-viewport `fixed inset-0 z-50 bg-[#0D0D0D]`. Nav links are Geist, 36px, weight 700, centered vertically and horizontally. Vertical stack with `40px` gap between links.
+Mobile overlay: full-viewport `fixed inset-0 z-50 bg-[#0D0D0D]`. Nav links are Geist, 36px, weight 700, centered vertically and horizontally. Vertical stack with `xl` token gap (32px) between links.
 
 ---
 
@@ -153,7 +153,7 @@ Footer layout: 3-column grid on desktop (≥1280px), 2-column on tablet (≥768p
 | Column 2 | Navigation links (same as header nav) |
 | Column 3 | Contact info: phone number, email address |
 
-Typography: all footer text uses Label scale (14px, weight 400, `--color-text-secondary`). Column headings use Label scale (14px, weight 600, `--color-text-primary`). Logo uses same spec as Navbar.
+Typography: all footer text uses Label scale (14px, weight 400, `--color-text-secondary`). Column headings use Label scale (14px, weight 700, `--color-text-primary`). Logo uses same spec as Navbar.
 
 Background: `--color-surface-secondary` (`#141414`). Top border: `border-t border-white/8`. Padding: `64px` top/bottom on desktop, `48px` on mobile.
 
@@ -285,7 +285,7 @@ No third-party component registries used in this phase. All atoms are hand-rolle
 | Geist display font | CONTEXT.md D-06 | Locked |
 | Inter body font | CONTEXT.md D-07 | Locked |
 | Headline tight tracking | CONTEXT.md D-08 | Locked |
-| Type scale values | CONTEXT.md D-09 | Claude's discretion — specified above |
+| Type scale values | CONTEXT.md D-09 | Claude's discretion — 4-size scale for Phase 1; display sizes deferred to Phase 3 UI-SPEC |
 | Navbar transparent default | CONTEXT.md D-10 | Locked |
 | Navbar frosted glass on scroll | CONTEXT.md D-11 | Locked |
 | Nav link animated underline | CONTEXT.md D-12 | Locked |
@@ -295,6 +295,7 @@ No third-party component registries used in this phase. All atoms are hand-rolle
 | Button variants & sizes | CONTEXT.md discretion | Specified above |
 | Border radius tokens | CONTEXT.md discretion | Specified above |
 | Hamburger animation (morph to X) | CONTEXT.md discretion | Specified above |
+| Mobile overlay link gap | Checker revision | Raw 40px replaced with `xl` token (32px) |
 | Spacing scale | Default 8-point + extensions | 4 extended tokens added for hero-scale spacing |
 | Icon library (lucide-react) | Default | Consistent with clean aesthetic |
 | Breakpoints | REQUIREMENTS.md PERF-02 | 375px / 768px / 1280px required |
