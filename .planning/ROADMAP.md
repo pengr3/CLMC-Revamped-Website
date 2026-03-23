@@ -31,7 +31,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Navigation is accessible and usable on mobile via a hamburger/drawer menu
   4. All pages share a consistent visual language driven by a defined color, typography, and spacing token system
   5. Smooth scroll behavior (Lenis) is active site-wide and all animations have a static fallback when `prefers-reduced-motion` is set
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold Next.js 16 project, design tokens, fonts, Button atom, route placeholders
+- [ ] 01-02-PLAN.md — Navbar (sticky, scroll-aware, mobile overlay), Footer, Lenis smooth scroll, visual verification
 **UI hint**: yes
 
 ### Phase 2: Animation Infrastructure
@@ -104,7 +107,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and Design System | 0/TBD | Not started | - |
+| 1. Foundation and Design System | 0/2 | Planning complete | - |
 | 2. Animation Infrastructure | 0/TBD | Not started | - |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Projects Gallery | 0/TBD | Not started | - |
