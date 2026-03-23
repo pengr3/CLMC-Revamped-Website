@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { Geist, Inter } from 'next/font/google'
 import './globals.css'
+import 'lenis/dist/lenis.css'
+import { Navbar } from '@/components/layout/Navbar'
+import { Footer } from '@/components/layout/Footer'
+import { LenisProvider } from '@/components/providers/LenisProvider'
 
 const geist = Geist({
   subsets: ['latin'],
@@ -23,7 +27,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${geist.variable} ${inter.variable}`}>
       <body>
-        <main>{children}</main>
+        <LenisProvider>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </LenisProvider>
       </body>
     </html>
   )
