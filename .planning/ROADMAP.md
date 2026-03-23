@@ -12,7 +12,7 @@ Six phases build the CLMC site from the ground up in strict dependency order. Ph
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation and Design System** - Project scaffold, design tokens, global layout, Navbar, Footer, and UI atoms
+- [x] **Phase 1: Foundation and Design System** - Project scaffold, design tokens, global layout, Navbar, Footer, and UI atoms (completed 2026-03-23)
 - [ ] **Phase 2: Animation Infrastructure** - GSAP + Lenis + Motion primitives, page transitions, and scroll-trigger patterns
 - [ ] **Phase 3: Home Page** - Full home page with hero, featured projects, services overview, credibility, clients strip, and CTA
 - [ ] **Phase 4: Projects Gallery** - Filterable project grid, per-project detail pages, and optimised image pipeline
@@ -31,10 +31,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Navigation is accessible and usable on mobile via a hamburger/drawer menu
   4. All pages share a consistent visual language driven by a defined color, typography, and spacing token system
   5. Smooth scroll behavior (Lenis) is active site-wide and all animations have a static fallback when `prefers-reduced-motion` is set
-**Plans:** 2 plans
+**Plans:** 2/2 plans complete
 Plans:
 - [x] 01-01-PLAN.md — Scaffold Next.js 16 project, design tokens, fonts, Button atom, route placeholders
-- [ ] 01-02-PLAN.md — Navbar (sticky, scroll-aware, mobile overlay), Footer, Lenis smooth scroll, visual verification
+- [x] 01-02-PLAN.md — Navbar (sticky, scroll-aware, mobile overlay), Footer, Lenis smooth scroll, visual verification
 **UI hint**: yes
 
 ### Phase 2: Animation Infrastructure
@@ -107,7 +107,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and Design System | 0/2 | Planning complete | - |
+| 1. Foundation and Design System | 2/2 | Complete   | 2026-03-23 |
 | 2. Animation Infrastructure | 0/TBD | Not started | - |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Projects Gallery | 0/TBD | Not started | - |

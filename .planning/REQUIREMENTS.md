@@ -14,11 +14,11 @@
 
 ### Layout & Navigation
 
-- [ ] **NAV-01**: Visitor sees a persistent sticky header with CLMC logo and primary navigation links on all pages
-- [ ] **NAV-02**: Header changes appearance on scroll (opacity shift or size reduction) to reinforce premium feel
-- [ ] **NAV-03**: Navigation is accessible and functional on mobile via hamburger/drawer menu
-- [ ] **NAV-04**: Footer displays contact information (phone, email), navigation links, and copyright on all pages
-- [ ] **NAV-05**: Smooth scroll behavior is active site-wide (Lenis)
+- [x] **NAV-01**: Visitor sees a persistent sticky header with CLMC logo and primary navigation links on all pages
+- [x] **NAV-02**: Header changes appearance on scroll (opacity shift or size reduction) to reinforce premium feel
+- [x] **NAV-03**: Navigation is accessible and functional on mobile via hamburger/drawer menu
+- [x] **NAV-04**: Footer displays contact information (phone, email), navigation links, and copyright on all pages
+- [x] **NAV-05**: Smooth scroll behavior is active site-wide (Lenis)
 
 ### Home Page
 
@@ -123,11 +123,11 @@
 | DSGN-02 | Phase 1 | Complete |
 | DSGN-03 | Phase 1 | Complete |
 | DSGN-04 | Phase 1 | Complete |
-| NAV-01 | Phase 1 | Pending |
-| NAV-02 | Phase 1 | Pending |
-| NAV-03 | Phase 1 | Pending |
-| NAV-04 | Phase 1 | Pending |
-| NAV-05 | Phase 1 | Pending |
+| NAV-01 | Phase 1 | Complete |
+| NAV-02 | Phase 1 | Complete |
+| NAV-03 | Phase 1 | Complete |
+| NAV-04 | Phase 1 | Complete |
+| NAV-05 | Phase 1 | Complete |
 | ANIM-01 | Phase 2 | Pending |
 | ANIM-02 | Phase 2 | Pending |
 | ANIM-03 | Phase 2 | Pending |
