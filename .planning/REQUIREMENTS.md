@@ -7,10 +7,10 @@
 
 ### Design System
 
-- [ ] **DSGN-01**: Site uses a defined design token system (color palette, typography scale, spacing) implemented via Tailwind CSS v4 configuration
-- [ ] **DSGN-02**: Global typography uses `next/font` with a display font (headlines) and body font (copy) pair that communicates minimalist-futuristic aesthetic
-- [ ] **DSGN-03**: All UI components share a consistent visual language (border radius, shadow system, color usage) across all pages
-- [ ] **DSGN-04**: `prefers-reduced-motion` media query is respected globally — all animations have a static fallback
+- [x] **DSGN-01**: Site uses a defined design token system (color palette, typography scale, spacing) implemented via Tailwind CSS v4 configuration
+- [x] **DSGN-02**: Global typography uses `next/font` with a display font (headlines) and body font (copy) pair that communicates minimalist-futuristic aesthetic
+- [x] **DSGN-03**: All UI components share a consistent visual language (border radius, shadow system, color usage) across all pages
+- [x] **DSGN-04**: `prefers-reduced-motion` media query is respected globally — all animations have a static fallback
 
 ### Layout & Navigation
 
@@ -119,10 +119,10 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DSGN-01 | Phase 1 | Pending |
-| DSGN-02 | Phase 1 | Pending |
-| DSGN-03 | Phase 1 | Pending |
-| DSGN-04 | Phase 1 | Pending |
+| DSGN-01 | Phase 1 | Complete |
+| DSGN-02 | Phase 1 | Complete |
+| DSGN-03 | Phase 1 | Complete |
+| DSGN-04 | Phase 1 | Complete |
 | NAV-01 | Phase 1 | Pending |
 | NAV-02 | Phase 1 | Pending |
 | NAV-03 | Phase 1 | Pending |

@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. Smooth scroll behavior (Lenis) is active site-wide and all animations have a static fallback when `prefers-reduced-motion` is set
 **Plans:** 2 plans
 Plans:
-- [ ] 01-01-PLAN.md — Scaffold Next.js 16 project, design tokens, fonts, Button atom, route placeholders
+- [x] 01-01-PLAN.md — Scaffold Next.js 16 project, design tokens, fonts, Button atom, route placeholders
 - [ ] 01-02-PLAN.md — Navbar (sticky, scroll-aware, mobile overlay), Footer, Lenis smooth scroll, visual verification
 **UI hint**: yes
 
