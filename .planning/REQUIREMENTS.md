@@ -51,8 +51,8 @@
 
 - [ ] **ANIM-01**: Page sections animate in as the visitor scrolls (fade-up, reveal, or equivalent scroll-triggered entrance animations)
 - [ ] **ANIM-02**: Hero section features a parallax depth effect on scroll
-- [ ] **ANIM-03**: Navigating between pages triggers a smooth animated transition (no hard flash)
-- [ ] **ANIM-04**: Interactive elements (buttons, project cards, nav links) have distinct hover micro-interaction states
+- [x] **ANIM-03**: Navigating between pages triggers a smooth animated transition (no hard flash)
+- [x] **ANIM-04**: Interactive elements (buttons, project cards, nav links) have distinct hover micro-interaction states
 
 ### Contact
 
@@ -130,8 +130,8 @@
 | NAV-05 | Phase 1 | Complete |
 | ANIM-01 | Phase 2 | Pending |
 | ANIM-02 | Phase 2 | Pending |
-| ANIM-03 | Phase 2 | Pending |
-| ANIM-04 | Phase 2 | Pending |
+| ANIM-03 | Phase 2 | Complete |
+| ANIM-04 | Phase 2 | Complete |
 | HOME-01 | Phase 3 | Pending |
 | HOME-02 | Phase 3 | Pending |
 | HOME-03 | Phase 3 | Pending |

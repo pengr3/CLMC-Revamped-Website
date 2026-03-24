@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 2 UI-SPEC approved
-last_updated: "2026-03-24T05:04:12.118Z"
+stopped_at: Completed 02-animation-infrastructure/02-01-PLAN.md
+last_updated: "2026-03-24T07:46:24.987Z"
 progress:
   total_phases: 6
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 4
+  completed_plans: 3
 ---
 
 ---
@@ -62,6 +62,7 @@ Plan: Not started
 *Updated after each plan completion*
 | Phase 01-foundation-and-design-system P01 | 8 | 2 tasks | 13 files |
 | Phase 01 P02 | 35 | 3 tasks | 4 files |
+| Phase 02-animation-infrastructure P01 | 422 | 3 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -80,6 +81,9 @@ Recent decisions affecting current work:
 - [Phase 01-foundation-and-design-system]: Footer is a Server Component — static content needs no client JS, keeping client bundle minimal
 - [Phase 01-foundation-and-design-system]: Lenis initialization skipped entirely (not just paused) when prefers-reduced-motion: reduce is set — DSGN-04 compliance
 - [Phase 01-foundation-and-design-system]: CSS-only hamburger morph (3 span elements) used for mobile overlay toggle — enables smooth animated transition without icon swap
+- [Phase 02-animation-infrastructure]: lib/gsap.ts is the single import source for GSAP — all consumers import from @/lib/gsap, never from gsap directly
+- [Phase 02-animation-infrastructure]: LenisProvider uses autoRaf: false with gsap.ticker.add() — single RAF loop prevents double-tick scroll jank
+- [Phase 02-animation-infrastructure]: template.tsx uses enter-only fade (no exit prop) — 300ms is fast enough that absence of stale page is imperceptible
 
 ### Pending Todos
 
@@ -92,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-24T05:04:12.115Z
-Stopped at: Phase 2 UI-SPEC approved
-Resume file: .planning/phases/02-animation-infrastructure/02-UI-SPEC.md
+Last session: 2026-03-24T07:46:24.981Z
+Stopped at: Completed 02-animation-infrastructure/02-01-PLAN.md
+Resume file: None
