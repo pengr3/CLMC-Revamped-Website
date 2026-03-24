@@ -46,7 +46,10 @@ Plans:
   2. Navigating between pages triggers a smooth animated transition with no hard flash
   3. Interactive elements (buttons, cards, nav links) respond with distinct hover micro-interaction states
   4. Hero-level parallax effect is functional on desktop and gracefully disabled on mobile (no jank)
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 02-01-PLAN.md — GSAP config, Lenis-GSAP ticker sync, page transition crossfade, Button hover, ProjectCard component
+- [ ] 02-02-PLAN.md — Scroll reveal hooks (useFadeUp, useClipReveal, useStagger) and hero parallax hook (useHeroParallax)
 **UI hint**: yes
 
 ### Phase 3: Home Page
@@ -108,7 +111,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation and Design System | 2/2 | Complete   | 2026-03-23 |
-| 2. Animation Infrastructure | 0/TBD | Not started | - |
+| 2. Animation Infrastructure | 0/2 | Planning complete | - |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Projects Gallery | 0/TBD | Not started | - |
 | 5. Content Pages and Contact | 0/TBD | Not started | - |
