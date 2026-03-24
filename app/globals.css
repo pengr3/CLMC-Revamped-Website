@@ -69,6 +69,22 @@
   }
 }
 
+/* -- Animation initial states — GSAP animates TO visible state on scroll -- */
+/* Prevents hydration mismatch: server renders elements hidden; GSAP reveals on scroll */
+[data-fade-up] {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+[data-clip-reveal] {
+  clip-path: inset(100% 0 0 0);
+}
+
+[data-stagger-child] {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
 /* -- Reduced motion: disable all transitions globally -- */
 /* Per DSGN-04: animations have static fallback when prefers-reduced-motion is set */
 @media (prefers-reduced-motion: reduce) {
@@ -77,5 +93,13 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  [data-fade-up],
+  [data-clip-reveal],
+  [data-stagger-child] {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
   }
 }
