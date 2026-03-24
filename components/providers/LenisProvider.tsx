@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react'
 import Lenis from 'lenis'
+import { gsap, ScrollTrigger } from '@/lib/gsap'
 import { usePathname } from 'next/navigation'
 
 export function LenisProvider({ children }: { children: React.ReactNode }) {
@@ -14,7 +15,7 @@ export function LenisProvider({ children }: { children: React.ReactNode }) {
     if (motionQuery.matches) return // Skip Lenis entirely when motion is reduced
 
     const lenis = new Lenis({
-      autoRaf: true,
+      autoRaf: false,
       duration: 1.2,
       easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       touchMultiplier: 2,
@@ -22,7 +23,16 @@ export function LenisProvider({ children }: { children: React.ReactNode }) {
     })
     lenisRef.current = lenis
 
+    lenis.on('scroll', ScrollTrigger.update)
+
+    const tickerFn = (time: number) => lenis.raf(time * 1000)
+    gsap.ticker.add(tickerFn)
+    gsap.ticker.lagSmoothing(0)
+
+    ScrollTrigger.refresh()
+
     return () => {
+      gsap.ticker.remove(tickerFn)
       lenis.destroy()
       lenisRef.current = null
     }
