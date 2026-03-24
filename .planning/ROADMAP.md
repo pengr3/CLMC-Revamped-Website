@@ -13,7 +13,7 @@ Six phases build the CLMC site from the ground up in strict dependency order. Ph
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation and Design System** - Project scaffold, design tokens, global layout, Navbar, Footer, and UI atoms (completed 2026-03-23)
-- [ ] **Phase 2: Animation Infrastructure** - GSAP + Lenis + Motion primitives, page transitions, and scroll-trigger patterns
+- [x] **Phase 2: Animation Infrastructure** - GSAP + Lenis + Motion primitives, page transitions, and scroll-trigger patterns (completed 2026-03-24)
 - [ ] **Phase 3: Home Page** - Full home page with hero, featured projects, services overview, credibility, clients strip, and CTA
 - [ ] **Phase 4: Projects Gallery** - Filterable project grid, per-project detail pages, and optimised image pipeline
 - [ ] **Phase 5: Content Pages and Contact** - About, CEO, Services, Clients, Testimonials, QMS, and Contact pages
@@ -46,7 +46,7 @@ Plans:
   2. Navigating between pages triggers a smooth animated transition with no hard flash
   3. Interactive elements (buttons, cards, nav links) respond with distinct hover micro-interaction states
   4. Hero-level parallax effect is functional on desktop and gracefully disabled on mobile (no jank)
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 Plans:
 - [ ] 02-01-PLAN.md — GSAP config, Lenis-GSAP ticker sync, page transition crossfade, Button hover, ProjectCard component
 - [ ] 02-02-PLAN.md — Scroll reveal hooks (useFadeUp, useClipReveal, useStagger) and hero parallax hook (useHeroParallax)
@@ -111,7 +111,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation and Design System | 2/2 | Complete   | 2026-03-23 |
-| 2. Animation Infrastructure | 1/2 | In Progress|  |
+| 2. Animation Infrastructure | 2/2 | Complete   | 2026-03-24 |
 | 3. Home Page | 0/TBD | Not started | - |
 | 4. Projects Gallery | 0/TBD | Not started | - |
 | 5. Content Pages and Contact | 0/TBD | Not started | - |

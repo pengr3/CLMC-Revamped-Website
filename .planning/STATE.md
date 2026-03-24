@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 02-animation-infrastructure/02-01-PLAN.md
-last_updated: "2026-03-24T07:46:24.987Z"
+stopped_at: Completed 02-animation-infrastructure/02-02-PLAN.md
+last_updated: "2026-03-24T07:53:15.218Z"
 progress:
   total_phases: 6
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 4
-  completed_plans: 3
+  completed_plans: 4
 ---
 
 ---
@@ -63,6 +63,7 @@ Plan: Not started
 | Phase 01-foundation-and-design-system P01 | 8 | 2 tasks | 13 files |
 | Phase 01 P02 | 35 | 3 tasks | 4 files |
 | Phase 02-animation-infrastructure P01 | 422 | 3 tasks | 5 files |
+| Phase 02-animation-infrastructure P02 | 4 | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -84,6 +85,9 @@ Recent decisions affecting current work:
 - [Phase 02-animation-infrastructure]: lib/gsap.ts is the single import source for GSAP — all consumers import from @/lib/gsap, never from gsap directly
 - [Phase 02-animation-infrastructure]: LenisProvider uses autoRaf: false with gsap.ticker.add() — single RAF loop prevents double-tick scroll jank
 - [Phase 02-animation-infrastructure]: template.tsx uses enter-only fade (no exit prop) — 300ms is fast enough that absence of stale page is imperceptible
+- [Phase 02-animation-infrastructure]: Data attribute API pattern established: [data-fade-up]/[data-clip-reveal]/[data-stagger]+[data-stagger-child] — hooks scan DOM and wire ScrollTriggers automatically
+- [Phase 02-animation-infrastructure]: CSS initial states placed in globals.css outside @layer base — GSAP gsap.set() inside useGSAP synchronizes JS and CSS initial state to prevent hydration mismatch
+- [Phase 02-animation-infrastructure]: useHeroParallax accepts three separate refs (heroRef, bgRef, textRef) for composability; window.innerWidth < 1024 guard disables parallax on mobile
 
 ### Pending Todos
 
@@ -96,6 +100,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-24T07:46:24.981Z
-Stopped at: Completed 02-animation-infrastructure/02-01-PLAN.md
+Last session: 2026-03-24T07:53:15.205Z
+Stopped at: Completed 02-animation-infrastructure/02-02-PLAN.md
 Resume file: None
