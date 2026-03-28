@@ -43,9 +43,9 @@
 - [x] **ABOUT-01**: Visitor can read the About Us page covering CLMC's company background, founding, mission, and track record
 - [x] **ABOUT-02**: Visitor can read the About CEO page with a leadership profile and portrait photography
 - [x] **SVC-01**: Visitor can read the Services page with a clear enumeration of management consultancy and engineering services offered
-- [ ] **CLIENT-01**: Visitor can view the Our Clients page displaying a logo grid of key clients with brief context
-- [ ] **TESTI-01**: Visitor can read the Client Testimony page with curated written testimonials from past clients
-- [ ] **QMS-01**: Visitor can view the QMS Policy page displaying CLMC's quality management system documentation in a scannable layout
+- [x] **CLIENT-01**: Visitor can view the Our Clients page displaying a logo grid of key clients with brief context
+- [x] **TESTI-01**: Visitor can read the Client Testimony page with curated written testimonials from past clients
+- [x] **QMS-01**: Visitor can view the QMS Policy page displaying CLMC's quality management system documentation in a scannable layout
 
 ### Animations & Interactions
 
@@ -58,7 +58,7 @@
 
 - [ ] **CTCT-01**: Visitor can submit an inquiry via a contact form; submission triggers an email delivery to CLMC
 - [ ] **CTCT-02**: CLMC's phone number and email address are visible in the site header or footer on all pages
-- [ ] **CTCT-03**: Visitor can access a dedicated Contact page (/contact) from the navigation
+- [x] **CTCT-03**: Visitor can access a dedicated Contact page (/contact) from the navigation
 
 ### SEO
 
@@ -147,12 +147,12 @@
 | ABOUT-01 | Phase 5 | Complete |
 | ABOUT-02 | Phase 5 | Complete |
 | SVC-01 | Phase 5 | Complete |
-| CLIENT-01 | Phase 5 | Pending |
-| TESTI-01 | Phase 5 | Pending |
-| QMS-01 | Phase 5 | Pending |
+| CLIENT-01 | Phase 5 | Complete |
+| TESTI-01 | Phase 5 | Complete |
+| QMS-01 | Phase 5 | Complete |
 | CTCT-01 | Phase 5 | Pending |
 | CTCT-02 | Phase 5 | Pending |
-| CTCT-03 | Phase 5 | Pending |
+| CTCT-03 | Phase 5 | Complete |
 | SEO-01 | Phase 6 | Pending |
 | SEO-02 | Phase 6 | Pending |
 | PERF-01 | Phase 6 | Pending |
