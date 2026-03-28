@@ -67,6 +67,14 @@
   body {
     @apply font-body antialiased;
   }
+
+  /* WCAG 2.2 AA — Global focus indicator safety net (D-10) */
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid var(--color-interactive-focus);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
 }
 
 /* -- Animation initial states — GSAP animates TO visible state on scroll -- */

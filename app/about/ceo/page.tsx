@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function AboutCEOPage() {
   return (
-    <main className="bg-surface-primary">
+    <div className="bg-surface-primary">
       <div className="pt-5xl pb-4xl px-md md:px-2xl">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3xl items-start">
@@ -61,6 +61,6 @@ export default function AboutCEOPage() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

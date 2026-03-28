@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main>
+    <div>
       <AboutHeroSection />
 
       {/* Mission statement */}
@@ -40,6 +40,6 @@ export default function AboutPage() {
 
       <MilestonesSection />
       <ValuesSection />
-    </main>
+    </div>
   )
 }

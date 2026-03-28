@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function TestimonialsPage() {
   return (
-    <main className="bg-surface-primary min-h-screen">
+    <div className="bg-surface-primary min-h-screen">
       {/* Breadcrumb */}
       <section className="pt-5xl pb-0 px-md md:px-2xl">
         <div className="max-w-7xl mx-auto">
@@ -50,6 +50,6 @@ export default function TestimonialsPage() {
 
       {/* Testimonials grid */}
       <TestimonialsGridSection />
-    </main>
+    </div>
   )
 }

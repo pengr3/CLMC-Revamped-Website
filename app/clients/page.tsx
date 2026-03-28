@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function ClientsPage() {
   return (
-    <main className="bg-surface-primary min-h-screen">
+    <div className="bg-surface-primary min-h-screen">
       {/* Hero */}
       <section className="pt-5xl pb-3xl px-md md:px-2xl">
         <div className="max-w-7xl mx-auto">
@@ -46,6 +46,6 @@ export default function ClientsPage() {
           </Link>
         </div>
       </section>
-    </main>
+    </div>
   )
 }

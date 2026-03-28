@@ -45,7 +45,7 @@ export default async function ProjectDetailPage({
   if (!project) notFound()
 
   return (
-    <main className="min-h-screen bg-surface-primary">
+    <div className="min-h-screen bg-surface-primary">
       {/* Hero — 60vh full-width cinematic image */}
       <div className="max-h-[60vh] h-[60vh] relative w-full">
         <Image
@@ -130,6 +130,6 @@ export default async function ProjectDetailPage({
 
         </div>
       </div>
-    </main>
+    </div>
   )
 }

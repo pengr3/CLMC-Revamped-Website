@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="bg-surface-primary">
+    <div className="bg-surface-primary">
       <div className="mx-auto max-w-7xl px-md md:px-2xl pt-5xl pb-4xl">
         <div className="grid grid-cols-1 gap-3xl lg:grid-cols-2">
           {/* Left column: Form */}
@@ -82,6 +82,6 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }

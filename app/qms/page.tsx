@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function QMSPage() {
   return (
-    <main className="bg-surface-primary min-h-screen">
+    <div className="bg-surface-primary min-h-screen">
       <div className="pt-5xl pb-4xl px-md md:px-2xl max-w-3xl mx-auto">
         <h1 className="font-display text-3xl md:text-4xl font-bold text-text-primary mb-3xl">
           Quality Management System Policy
@@ -130,6 +130,6 @@ export default function QMSPage() {
           </p>
         </section>
       </div>
-    </main>
+    </div>
   )
 }
