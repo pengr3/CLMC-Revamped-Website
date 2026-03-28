@@ -1,9 +1,20 @@
+import { HeroSection } from '@/components/sections/HeroSection'
+import { FeaturedProjectsSection } from '@/components/sections/FeaturedProjectsSection'
+import { ServicesSection } from '@/components/sections/ServicesSection'
+import { StatsSection } from '@/components/sections/StatsSection'
+import { ClientLogosSection } from '@/components/sections/ClientLogosSection'
+import { InquiryCTASection } from '@/components/sections/InquiryCTASection'
+
 export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-surface-primary">
-      <h1 className="font-display text-4xl font-bold tracking-tight text-text-primary">
-        CLMC — Home
-      </h1>
-    </div>
+    <>
+      {/* D-29: Section order — Hero → Featured Projects → Services → Stats → Client Logos → Inquiry CTA */}
+      <HeroSection />
+      <FeaturedProjectsSection />
+      <ServicesSection />
+      <StatsSection />
+      <ClientLogosSection />
+      <InquiryCTASection />
+    </>
   )
 }

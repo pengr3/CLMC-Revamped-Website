@@ -85,6 +85,16 @@
   transform: translateY(40px);
 }
 
+/* -- Marquee animation for client logos strip -- */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@utility animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
 /* -- Reduced motion: disable all transitions globally -- */
 /* Per DSGN-04: animations have static fallback when prefers-reduced-motion is set */
 @media (prefers-reduced-motion: reduce) {
@@ -101,5 +111,9 @@
     opacity: 1 !important;
     transform: none !important;
     clip-path: none !important;
+  }
+
+  .animate-marquee {
+    animation: none !important;
   }
 }
