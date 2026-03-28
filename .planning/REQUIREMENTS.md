@@ -27,8 +27,8 @@
 - [x] **HOME-03**: Home page includes a featured projects teaser section (3–6 selected projects) linking to the full Projects page
 - [x] **HOME-04**: Home page includes an overview of core services with brief descriptions
 - [x] **HOME-05**: Home page includes a company credibility section (e.g. years of experience, projects completed, key facts)
-- [ ] **HOME-06**: Home page includes a client logos strip as social proof
-- [ ] **HOME-07**: Home page includes an inquiry CTA section prompting visitors to get in touch
+- [x] **HOME-06**: Home page includes a client logos strip as social proof
+- [x] **HOME-07**: Home page includes an inquiry CTA section prompting visitors to get in touch
 
 ### Projects Gallery
 
@@ -137,8 +137,8 @@
 | HOME-03 | Phase 3 | Complete |
 | HOME-04 | Phase 3 | Complete |
 | HOME-05 | Phase 3 | Complete |
-| HOME-06 | Phase 3 | Pending |
-| HOME-07 | Phase 3 | Pending |
+| HOME-06 | Phase 3 | Complete |
+| HOME-07 | Phase 3 | Complete |
 | PROJ-01 | Phase 4 | Pending |
 | PROJ-02 | Phase 4 | Pending |
 | PROJ-03 | Phase 4 | Pending |

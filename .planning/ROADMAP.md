@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation and Design System** - Project scaffold, design tokens, global layout, Navbar, Footer, and UI atoms (completed 2026-03-23)
 - [x] **Phase 2: Animation Infrastructure** - GSAP + Lenis + Motion primitives, page transitions, and scroll-trigger patterns (completed 2026-03-24)
-- [ ] **Phase 3: Home Page** - Full home page with hero, featured projects, services overview, credibility, clients strip, and CTA
+- [x] **Phase 3: Home Page** - Full home page with hero, featured projects, services overview, credibility, clients strip, and CTA (completed 2026-03-28)
 - [ ] **Phase 4: Projects Gallery** - Filterable project grid, per-project detail pages, and optimised image pipeline
 - [ ] **Phase 5: Content Pages and Contact** - About, CEO, Services, Clients, Testimonials, QMS, and Contact pages
 - [ ] **Phase 6: SEO, Performance and Accessibility** - Metadata, schema markup, Core Web Vitals audit, and WCAG 2.2 compliance
@@ -62,7 +62,7 @@ Plans:
   3. Visitor can read an overview of CLMC's core services with brief descriptions on the home page
   4. Visitor sees a company credibility section (years of experience, projects completed, key facts) and a client logos strip as social proof
   5. Visitor sees an inquiry CTA section at the bottom of the home page prompting them to get in touch
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 Plans:
 - [ ] 03-01-PLAN.md — Setup (placeholders, Button/ProjectCard updates), HeroSection, FeaturedProjectsSection
 - [ ] 03-02-PLAN.md — ServiceCard component, ServicesSection, useCountUp hook, StatsSection
@@ -116,7 +116,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 |-------|----------------|--------|-----------|
 | 1. Foundation and Design System | 2/2 | Complete   | 2026-03-23 |
 | 2. Animation Infrastructure | 2/2 | Complete   | 2026-03-24 |
-| 3. Home Page | 2/3 | In Progress|  |
+| 3. Home Page | 3/3 | Complete   | 2026-03-28 |
 | 4. Projects Gallery | 0/TBD | Not started | - |
 | 5. Content Pages and Contact | 0/TBD | Not started | - |
 | 6. SEO, Performance and Accessibility | 0/TBD | Not started | - |
