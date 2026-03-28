@@ -79,7 +79,10 @@ Plans:
   3. Visitor can open a dedicated per-project detail page with extended scope, description, and additional images
   4. Gallery images load quickly with WebP/AVIF format, blur placeholders, and no layout shift
   5. Featured projects on the Home page link correctly through to the Projects page
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 04-01-PLAN.md — Shared data layer (data/projects.ts), FeaturedProjectsSection migration, gallery page with filter pills and masonry grid
+- [ ] 04-02-PLAN.md — Per-project detail pages with generateStaticParams, ProjectCard Link upgrade, visual verification
 **UI hint**: yes
 
 ### Phase 5: Content Pages and Contact
@@ -117,6 +120,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 1. Foundation and Design System | 2/2 | Complete   | 2026-03-23 |
 | 2. Animation Infrastructure | 2/2 | Complete   | 2026-03-24 |
 | 3. Home Page | 3/3 | Complete   | 2026-03-28 |
-| 4. Projects Gallery | 0/TBD | Not started | - |
+| 4. Projects Gallery | 0/2 | Not started | - |
 | 5. Content Pages and Contact | 0/TBD | Not started | - |
 | 6. SEO, Performance and Accessibility | 0/TBD | Not started | - |
