@@ -1,10 +1,18 @@
 import type { Metadata } from 'next'
+import { sharedOG } from '@/app/shared-metadata'
 import { ServiceDetailSection } from '@/components/sections/ServiceDetailSection'
 
 export const metadata: Metadata = {
-  title: 'Our Services | CLMC',
+  title: 'Our Services',
   description:
-    'Explore the full range of construction and management services offered by CLMC — commercial fit-outs, residential renovations, maintenance, repairs, and property management.',
+    'Full-service construction and property management in the Philippines — interior fit-outs, building maintenance, repair, and facilities management by CLMC.',
+  openGraph: {
+    ...sharedOG,
+    title: 'Our Services',
+    description: 'Full-service construction and property management in the Philippines by CLMC.',
+    url: '/services',
+    type: 'website',
+  },
 }
 
 export default function ServicesPage() {

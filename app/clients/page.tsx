@@ -1,11 +1,19 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { sharedOG } from '@/app/shared-metadata'
 import { ClientsGridSection } from '@/components/sections/ClientsGridSection'
 
 export const metadata: Metadata = {
-  title: 'Our Clients | CLMC',
+  title: 'Our Clients',
   description:
-    'CLMC serves leading Philippine organizations across commercial, residential, and government sectors. Explore our trusted client partnerships.',
+    'Trusted by leading companies across the Philippines — see the organizations that partner with CLMC for construction and property management.',
+  openGraph: {
+    ...sharedOG,
+    title: 'Our Clients',
+    description: 'Organizations that trust CLMC for construction management.',
+    url: '/clients',
+    type: 'website',
+  },
 }
 
 export default function ClientsPage() {

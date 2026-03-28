@@ -1,10 +1,18 @@
 import { ContactFormSection } from '@/components/sections/ContactFormSection'
 import type { Metadata } from 'next'
+import { sharedOG } from '@/app/shared-metadata'
 
 export const metadata: Metadata = {
-  title: 'Contact | CLMC',
+  title: 'Contact Us',
   description:
-    'Get in touch with CLMC — C. Lacsamana Management and Construction Corporation. Submit an inquiry or request a project consultation.',
+    'Get in touch with CLMC for construction management, interior fit-outs, and property services in the Philippines. Request a consultation today.',
+  openGraph: {
+    ...sharedOG,
+    title: 'Contact Us',
+    description: 'Contact CLMC for construction management services in the Philippines.',
+    url: '/contact',
+    type: 'website',
+  },
 }
 
 export default function ContactPage() {

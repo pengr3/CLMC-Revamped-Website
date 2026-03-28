@@ -1,8 +1,33 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { projects, BLUR_DATA_URL } from '@/data/projects'
 import { buttonVariants } from '@/components/ui/Button'
+import { sharedOG } from '@/app/shared-metadata'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  const project = projects.find((p) => p.id === slug)
+  if (!project) return {}
+
+  return {
+    title: project.title,
+    description: `${project.title} — ${project.category} project by CLMC in the Philippines.`,
+    openGraph: {
+      ...sharedOG,
+      title: project.title,
+      description: `${project.title} — ${project.category} project by CLMC.`,
+      url: `/projects/${slug}`,
+      images: [{ url: project.imageSrc, width: 1200, height: 630, alt: project.imageAlt }],
+      type: 'website',
+    },
+  }
+}
 
 export function generateStaticParams() {
   return projects.map((p) => ({ slug: p.id }))

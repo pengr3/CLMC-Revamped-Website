@@ -1,9 +1,17 @@
 import type { Metadata } from 'next'
+import { sharedOG } from '@/app/shared-metadata'
 
 export const metadata: Metadata = {
-  title: 'Quality Management System Policy | CLMC',
+  title: 'Quality Management System',
   description:
-    'CLMC\'s Quality Management System policy statement, objectives, and commitment to continual improvement in construction and property management services.',
+    "CLMC quality management system policy — our commitment to excellence in construction management, safety, and continuous improvement.",
+  openGraph: {
+    ...sharedOG,
+    title: 'Quality Management System',
+    description: 'CLMC quality management system policy and standards.',
+    url: '/qms',
+    type: 'website',
+  },
 }
 
 export default function QMSPage() {

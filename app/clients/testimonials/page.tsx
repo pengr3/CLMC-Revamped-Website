@@ -1,11 +1,19 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { sharedOG } from '@/app/shared-metadata'
 import { TestimonialsGridSection } from '@/components/sections/TestimonialsGridSection'
 
 export const metadata: Metadata = {
-  title: 'Client Testimonials | CLMC',
+  title: 'Client Testimonials',
   description:
-    'See what CLMC clients say about our construction and project management services. Real feedback from Philippine organizations we have served.',
+    'Read what clients say about working with CLMC — testimonials from partners across commercial, residential, and government construction projects.',
+  openGraph: {
+    ...sharedOG,
+    title: 'Client Testimonials',
+    description: 'What clients say about CLMC construction management.',
+    url: '/clients/testimonials',
+    type: 'website',
+  },
 }
 
 export default function TestimonialsPage() {

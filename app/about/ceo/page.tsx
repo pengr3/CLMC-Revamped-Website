@@ -1,9 +1,17 @@
 import type { Metadata } from 'next'
+import { sharedOG } from '@/app/shared-metadata'
 
 export const metadata: Metadata = {
-  title: 'About the CEO | CLMC',
+  title: 'About the CEO',
   description:
-    'Meet the President and CEO of C. Lacsamana Management and Construction Corporation — leadership profile and company vision.',
+    'Meet Christian Lacsamana, President and CEO of CLMC — leading construction management excellence in the Philippines.',
+  openGraph: {
+    ...sharedOG,
+    title: 'About the CEO',
+    description: 'Christian Lacsamana, President and CEO of CLMC.',
+    url: '/about/ceo',
+    type: 'website',
+  },
 }
 
 export default function AboutCEOPage() {

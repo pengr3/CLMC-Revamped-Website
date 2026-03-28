@@ -1,12 +1,20 @@
 import type { Metadata } from 'next'
+import { sharedOG } from '@/app/shared-metadata'
 import { AboutHeroSection } from '@/components/sections/AboutHeroSection'
 import { MilestonesSection } from '@/components/sections/MilestonesSection'
 import { ValuesSection } from '@/components/sections/ValuesSection'
 
 export const metadata: Metadata = {
-  title: 'About Us | CLMC',
+  title: 'About Us',
   description:
-    'Learn about C. Lacsamana Management and Construction Corporation — our history, mission, and values as a Philippine construction and management consultancy.',
+    'Learn about CLMC — C. Lacsamana Management and Construction Corporation, a premier construction management and consultancy firm in the Philippines.',
+  openGraph: {
+    ...sharedOG,
+    title: 'About Us',
+    description: 'CLMC — Premier construction management and consultancy firm in the Philippines.',
+    url: '/about',
+    type: 'website',
+  },
 }
 
 export default function AboutPage() {
