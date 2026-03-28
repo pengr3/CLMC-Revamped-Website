@@ -7,13 +7,14 @@ interface ProjectCardProps {
   imageAlt: string
   title: string
   category?: string
+  meta?: string
   href?: string
   priority?: boolean
   className?: string
 }
 
 const ProjectCard = forwardRef<HTMLDivElement, ProjectCardProps>(
-  ({ imageSrc, imageAlt, title, category, href, priority = false, className }, ref) => {
+  ({ imageSrc, imageAlt, title, category, meta, href, priority = false, className }, ref) => {
     const content = (
       <>
         {/* Image with zoom on hover */}
@@ -54,6 +55,11 @@ const ProjectCard = forwardRef<HTMLDivElement, ProjectCardProps>(
           <h3 className="text-text-primary font-display font-bold text-[18px] leading-[1.3]">
             {title}
           </h3>
+          {meta && (
+            <p className="text-text-muted text-[12px] font-body mt-xs">
+              {meta}
+            </p>
+          )}
         </div>
       </>
     )
