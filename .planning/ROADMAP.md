@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation and Design System** - Project scaffold, design tokens, global layout, Navbar, Footer, and UI atoms (completed 2026-03-23)
 - [x] **Phase 2: Animation Infrastructure** - GSAP + Lenis + Motion primitives, page transitions, and scroll-trigger patterns (completed 2026-03-24)
 - [x] **Phase 3: Home Page** - Full home page with hero, featured projects, services overview, credibility, clients strip, and CTA (completed 2026-03-28)
-- [ ] **Phase 4: Projects Gallery** - Filterable project grid, per-project detail pages, and optimised image pipeline
+- [x] **Phase 4: Projects Gallery** - Filterable project grid, per-project detail pages, and optimised image pipeline (completed 2026-03-28)
 - [ ] **Phase 5: Content Pages and Contact** - About, CEO, Services, Clients, Testimonials, QMS, and Contact pages
 - [ ] **Phase 6: SEO, Performance and Accessibility** - Metadata, schema markup, Core Web Vitals audit, and WCAG 2.2 compliance
 
@@ -79,10 +79,10 @@ Plans:
   3. Visitor can open a dedicated per-project detail page with extended scope, description, and additional images
   4. Gallery images load quickly with WebP/AVIF format, blur placeholders, and no layout shift
   5. Featured projects on the Home page link correctly through to the Projects page
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 Plans:
 - [x] 04-01-PLAN.md — Shared data layer (data/projects.ts), FeaturedProjectsSection migration, gallery page with filter pills and masonry grid
-- [ ] 04-02-PLAN.md — Per-project detail pages with generateStaticParams, ProjectCard Link upgrade, visual verification
+- [x] 04-02-PLAN.md — Per-project detail pages with generateStaticParams, ProjectCard Link upgrade, visual verification
 **UI hint**: yes
 
 ### Phase 5: Content Pages and Contact
@@ -120,6 +120,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 1. Foundation and Design System | 2/2 | Complete   | 2026-03-23 |
 | 2. Animation Infrastructure | 2/2 | Complete   | 2026-03-24 |
 | 3. Home Page | 3/3 | Complete   | 2026-03-28 |
-| 4. Projects Gallery | 1/2 | In Progress|  |
+| 4. Projects Gallery | 2/2 | Complete   | 2026-03-28 |
 | 5. Content Pages and Contact | 0/TBD | Not started | - |
 | 6. SEO, Performance and Accessibility | 0/TBD | Not started | - |

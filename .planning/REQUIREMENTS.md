@@ -35,7 +35,7 @@
 - [x] **PROJ-01**: Visitor can view a full project gallery page displaying all CLMC projects as image cards
 - [x] **PROJ-02**: Visitor can filter the project gallery by category (e.g. residential, commercial, government, infrastructure)
 - [x] **PROJ-03**: Each project card displays a high-quality image, project name, and brief descriptor
-- [ ] **PROJ-04**: Visitor can open a dedicated per-project detail page with extended project information (scope, description, additional images)
+- [x] **PROJ-04**: Visitor can open a dedicated per-project detail page with extended project information (scope, description, additional images)
 - [x] **PROJ-05**: Featured projects section on the Home page links through to the full Projects page
 
 ### Content Pages
@@ -142,7 +142,7 @@
 | PROJ-01 | Phase 4 | Complete |
 | PROJ-02 | Phase 4 | Complete |
 | PROJ-03 | Phase 4 | Complete |
-| PROJ-04 | Phase 4 | Pending |
+| PROJ-04 | Phase 4 | Complete |
 | PROJ-05 | Phase 4 | Complete |
 | ABOUT-01 | Phase 5 | Pending |
 | ABOUT-02 | Phase 5 | Pending |

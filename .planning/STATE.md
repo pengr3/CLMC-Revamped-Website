@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in-progress
-stopped_at: Completed 04-projects-gallery/04-01-PLAN.md
-last_updated: "2026-03-28T08:11:33.236Z"
+stopped_at: Completed 04-projects-gallery/04-02-PLAN.md
+last_updated: "2026-03-28T08:30:00.000Z"
 progress:
   total_phases: 6
   completed_phases: 3
   total_plans: 9
-  completed_plans: 8
+  completed_plans: 9
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-23)
 
 **Core value:** A stunning first impression that positions CLMC as the most forward-thinking construction firm in the Philippines — winning clients through prestige and credibility on every scroll.
-**Current focus:** Phase 03 — home-page
+**Current focus:** Phase 04 — projects-gallery
 
 ## Current Position
 
-Phase: 3
-Plan: Completed 03-03
+Phase: 4
+Plan: Completed 04-02
 
 ## Performance Metrics
 
@@ -54,6 +54,7 @@ Plan: Completed 03-03
 | Phase 03-home-page P01 | 3 | 2 tasks | 6 files |
 | Phase 03-home-page P03 | 5 | 2 tasks | 4 files |
 | Phase 04-projects-gallery P01 | 15 | 2 tasks | 4 files |
+| Phase 04-projects-gallery P02 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -90,6 +91,10 @@ Recent decisions affecting current work:
 - [Phase 04-projects-gallery]: CSS columns masonry chosen over JS-based masonry — zero runtime cost, native CSS, no layout thrash
 - [Phase 04-projects-gallery]: AnimatePresence mode=popLayout for filter transitions — handles enter and exit cleanly as layout recalculates
 - [Phase 04-projects-gallery]: ProjectsGallery is a client component that owns heading and useFadeUp — app/projects/page.tsx stays a Server Component
+- [Phase 04-projects-gallery]: params typed as Promise<{ slug: string }> and awaited — Next.js 15 App Router requirement for async Server Component page props
+- [Phase 04-projects-gallery]: dynamicParams = false on detail page — unknown slugs yield 404, not dynamic rendering
+- [Phase 04-projects-gallery]: Detail page content has no data-fade-up — renders immediately visible; hero provides visual impact, animating all content blocks on navigation would feel jarring
+- [Phase 04-projects-gallery]: ProjectCard Link upgrade preserves same sharedClassName — no visual change, only navigation behavior changes to client-side
 
 ### Pending Todos
 
@@ -102,6 +107,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T08:11:33.232Z
-Stopped at: Completed 04-projects-gallery/04-01-PLAN.md
+Last session: 2026-03-28T08:30:00.000Z
+Stopped at: Completed 04-projects-gallery/04-02-PLAN.md
 Resume file: None
