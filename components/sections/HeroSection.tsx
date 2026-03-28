@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useHeroParallax } from '@/components/animation/useHeroParallax'
 import { buttonVariants } from '@/components/ui/Button'
+import { BLUR_DATA_URL } from '@/data/projects'
 
 export function HeroSection() {
   const heroRef = useRef<HTMLElement>(null)
@@ -22,6 +23,8 @@ export function HeroSection() {
           alt="CLMC completed construction project — modern commercial building"
           fill
           priority
+          placeholder="blur"
+          blurDataURL={BLUR_DATA_URL}
           className="object-cover"
           sizes="100vw"
         />
