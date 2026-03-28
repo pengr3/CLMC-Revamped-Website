@@ -1,9 +1,13 @@
+import { ProjectsGallery } from '@/components/sections/ProjectsGallery'
+
 export default function ProjectsPage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-surface-primary">
-      <h1 className="font-display text-4xl font-bold tracking-tight text-text-primary">
-        CLMC — Projects
-      </h1>
-    </div>
+    <main className="min-h-screen bg-surface-primary">
+      <section className="py-4xl px-md md:px-2xl">
+        <div className="max-w-7xl mx-auto">
+          <ProjectsGallery />
+        </div>
+      </section>
+    </main>
   )
 }
