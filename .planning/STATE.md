@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: Ready to plan
-stopped_at: Completed 05-content-pages-and-contact/05-03-PLAN.md
-last_updated: "2026-03-28T10:01:34.371Z"
+stopped_at: Completed 06-seo-performance-and-accessibility/06-01-PLAN.md
+last_updated: "2026-03-28T12:37:35.103Z"
 progress:
   total_phases: 6
   completed_phases: 5
-  total_plans: 12
-  completed_plans: 12
+  total_plans: 14
+  completed_plans: 13
 ---
 
 # Project State
@@ -58,6 +58,7 @@ Plan: Not started
 | Phase 05-content-pages-and-contact PP01 | 139 | 1 tasks | 9 files |
 | Phase 05-content-pages-and-contact P02 | 25 | 2 tasks | 9 files |
 | Phase 05-content-pages-and-contact P03 | 2 | 1 tasks | 4 files |
+| Phase 06-seo-performance-and-accessibility PP01 | 4 | 2 tasks | 15 files |
 
 ## Accumulated Context
 
@@ -105,6 +106,9 @@ Recent decisions affecting current work:
 - [Phase 05-content-pages-and-contact]: TestimonialCard is a Server Component — pure display, wrapper div handles stagger animation
 - [Phase 05-content-pages-and-contact]: @formspree/react useForm hook used for contact form — no backend required, works on Vercel static export; NEXT_PUBLIC_FORMSPREE_ID=placeholder allows dev without real account
 - [Phase 05-content-pages-and-contact]: ContactFormSection scoped as 'use client'; contact/page.tsx stays Server Component — client JS boundary limited to form only
+- [Phase 06-seo-performance-and-accessibility]: sharedOG spread required on every page — Next.js openGraph is shallow-merged, pages must re-spread sharedOG or lose the OG image
+- [Phase 06-seo-performance-and-accessibility]: Home page uses title: { absolute } to bypass the title template — only exception in the site
+- [Phase 06-seo-performance-and-accessibility]: Skip link uses sr-only + focus-visible:not-sr-only pattern — invisible until keyboard focus, then visible as accessible landmark
 
 ### Pending Todos
 
@@ -117,6 +121,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T09:57:45.528Z
-Stopped at: Completed 05-content-pages-and-contact/05-03-PLAN.md
+Last session: 2026-03-28T12:37:35.098Z
+Stopped at: Completed 06-seo-performance-and-accessibility/06-01-PLAN.md
 Resume file: None

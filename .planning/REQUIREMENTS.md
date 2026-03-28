@@ -62,8 +62,8 @@
 
 ### SEO
 
-- [ ] **SEO-01**: Each page has unique, optimised meta title, description, and Open Graph tags via Next.js Metadata API
-- [ ] **SEO-02**: Site includes LocalBusiness JSON-LD schema markup for Philippine search visibility
+- [x] **SEO-01**: Each page has unique, optimised meta title, description, and Open Graph tags via Next.js Metadata API
+- [x] **SEO-02**: Site includes LocalBusiness JSON-LD schema markup for Philippine search visibility
 
 ### Performance & Accessibility
 
@@ -153,8 +153,8 @@
 | CTCT-01 | Phase 5 | Complete |
 | CTCT-02 | Phase 5 | Complete |
 | CTCT-03 | Phase 5 | Complete |
-| SEO-01 | Phase 6 | Pending |
-| SEO-02 | Phase 6 | Pending |
+| SEO-01 | Phase 6 | Complete |
+| SEO-02 | Phase 6 | Complete |
 | PERF-01 | Phase 6 | Pending |
 | PERF-02 | Phase 6 | Pending |
 | PERF-03 | Phase 6 | Pending |
