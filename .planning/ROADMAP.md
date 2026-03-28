@@ -112,7 +112,11 @@ Plans:
   3. Site passes Core Web Vitals thresholds (LCP < 2.5s, CLS < 0.1) on both desktop and mobile in Lighthouse / PageSpeed Insights
   4. All pages are fully usable and visually correct on mobile (375px+), tablet (768px+), and desktop (1280px+)
   5. All pages meet WCAG 2.2 AA baseline: keyboard navigable, focus indicators visible, all images have descriptive alt text, semantic HTML throughout
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 06-01-PLAN.md — SEO infrastructure (metadataBase, JSON-LD, sitemap, robots, skip link) and unique metadata with OG tags on all pages
+- [ ] 06-02-PLAN.md — Accessibility fixes (nested main, focus indicators) and image optimization (blur placeholders, sizes)
+**UI hint**: no
 
 ## Progress
 
@@ -126,4 +130,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 3. Home Page | 3/3 | Complete   | 2026-03-28 |
 | 4. Projects Gallery | 2/2 | Complete   | 2026-03-28 |
 | 5. Content Pages and Contact | 3/3 | Complete   | 2026-03-28 |
-| 6. SEO, Performance and Accessibility | 0/TBD | Not started | - |
+| 6. SEO, Performance and Accessibility | 0/2 | Not started | - |
