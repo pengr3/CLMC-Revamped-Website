@@ -40,9 +40,9 @@
 
 ### Content Pages
 
-- [ ] **ABOUT-01**: Visitor can read the About Us page covering CLMC's company background, founding, mission, and track record
-- [ ] **ABOUT-02**: Visitor can read the About CEO page with a leadership profile and portrait photography
-- [ ] **SVC-01**: Visitor can read the Services page with a clear enumeration of management consultancy and engineering services offered
+- [x] **ABOUT-01**: Visitor can read the About Us page covering CLMC's company background, founding, mission, and track record
+- [x] **ABOUT-02**: Visitor can read the About CEO page with a leadership profile and portrait photography
+- [x] **SVC-01**: Visitor can read the Services page with a clear enumeration of management consultancy and engineering services offered
 - [ ] **CLIENT-01**: Visitor can view the Our Clients page displaying a logo grid of key clients with brief context
 - [ ] **TESTI-01**: Visitor can read the Client Testimony page with curated written testimonials from past clients
 - [ ] **QMS-01**: Visitor can view the QMS Policy page displaying CLMC's quality management system documentation in a scannable layout
@@ -144,9 +144,9 @@
 | PROJ-03 | Phase 4 | Complete |
 | PROJ-04 | Phase 4 | Complete |
 | PROJ-05 | Phase 4 | Complete |
-| ABOUT-01 | Phase 5 | Pending |
-| ABOUT-02 | Phase 5 | Pending |
-| SVC-01 | Phase 5 | Pending |
+| ABOUT-01 | Phase 5 | Complete |
+| ABOUT-02 | Phase 5 | Complete |
+| SVC-01 | Phase 5 | Complete |
 | CLIENT-01 | Phase 5 | Pending |
 | TESTI-01 | Phase 5 | Pending |
 | QMS-01 | Phase 5 | Pending |

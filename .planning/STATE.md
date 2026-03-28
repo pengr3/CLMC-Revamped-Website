@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: Ready to plan
-stopped_at: Completed 04-projects-gallery/04-02-PLAN.md
-last_updated: "2026-03-28T08:19:21.205Z"
+stopped_at: Completed 05-content-pages-and-contact/05-01-PLAN.md
+last_updated: "2026-03-28T09:53:37.550Z"
 progress:
   total_phases: 6
   completed_phases: 4
-  total_plans: 9
-  completed_plans: 9
+  total_plans: 12
+  completed_plans: 10
 ---
 
 # Project State
@@ -55,6 +55,7 @@ Plan: Not started
 | Phase 03-home-page P03 | 5 | 2 tasks | 4 files |
 | Phase 04-projects-gallery P01 | 15 | 2 tasks | 4 files |
 | Phase 04-projects-gallery P02 | 10 | 2 tasks | 2 files |
+| Phase 05-content-pages-and-contact PP01 | 139 | 1 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -95,6 +96,8 @@ Recent decisions affecting current work:
 - [Phase 04-projects-gallery]: dynamicParams = false on detail page — unknown slugs yield 404, not dynamic rendering
 - [Phase 04-projects-gallery]: Detail page content has no data-fade-up — renders immediately visible; hero provides visual impact, animating all content blocks on navigation would feel jarring
 - [Phase 04-projects-gallery]: ProjectCard Link upgrade preserves same sharedClassName — no visual change, only navigation behavior changes to client-side
+- [Phase 05-content-pages-and-contact]: Icon name string in data + ICON_MAP in component — keeps data/services.ts serializable, no React imports in data files
+- [Phase 05-content-pages-and-contact]: AboutHeroSection and CEO page are Server Components — hero and single-viewport profile render immediately; useFadeUp/useStagger reserved for below-the-fold sections
 
 ### Pending Todos
 
@@ -107,6 +110,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T08:30:00.000Z
-Stopped at: Completed 04-projects-gallery/04-02-PLAN.md
+Last session: 2026-03-28T09:53:37.546Z
+Stopped at: Completed 05-content-pages-and-contact/05-01-PLAN.md
 Resume file: None
