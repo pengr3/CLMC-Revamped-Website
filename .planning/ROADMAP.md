@@ -17,7 +17,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 3: Home Page** - Full home page with hero, featured projects, services overview, credibility, clients strip, and CTA (completed 2026-03-28)
 - [x] **Phase 4: Projects Gallery** - Filterable project grid, per-project detail pages, and optimised image pipeline (completed 2026-03-28)
 - [x] **Phase 5: Content Pages and Contact** - About, CEO, Services, Clients, Testimonials, QMS, and Contact pages (completed 2026-03-28)
-- [ ] **Phase 6: SEO, Performance and Accessibility** - Metadata, schema markup, Core Web Vitals audit, and WCAG 2.2 compliance
+- [x] **Phase 6: SEO, Performance and Accessibility** - Metadata, schema markup, Core Web Vitals audit, and WCAG 2.2 compliance (completed 2026-03-28)
 
 ## Phase Details
 
@@ -112,10 +112,10 @@ Plans:
   3. Site passes Core Web Vitals thresholds (LCP < 2.5s, CLS < 0.1) on both desktop and mobile in Lighthouse / PageSpeed Insights
   4. All pages are fully usable and visually correct on mobile (375px+), tablet (768px+), and desktop (1280px+)
   5. All pages meet WCAG 2.2 AA baseline: keyboard navigable, focus indicators visible, all images have descriptive alt text, semantic HTML throughout
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 Plans:
 - [x] 06-01-PLAN.md — SEO infrastructure (metadataBase, JSON-LD, sitemap, robots, skip link) and unique metadata with OG tags on all pages
-- [ ] 06-02-PLAN.md — Accessibility fixes (nested main, focus indicators) and image optimization (blur placeholders, sizes)
+- [x] 06-02-PLAN.md — Accessibility fixes (nested main, focus indicators) and image optimization (blur placeholders, sizes)
 **UI hint**: no
 
 ## Progress
@@ -130,4 +130,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
 | 3. Home Page | 3/3 | Complete   | 2026-03-28 |
 | 4. Projects Gallery | 2/2 | Complete   | 2026-03-28 |
 | 5. Content Pages and Contact | 3/3 | Complete   | 2026-03-28 |
-| 6. SEO, Performance and Accessibility | 1/2 | In Progress|  |
+| 6. SEO, Performance and Accessibility | 2/2 | Complete   | 2026-03-28 |

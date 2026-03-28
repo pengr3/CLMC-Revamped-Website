@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: Ready to plan
-stopped_at: Completed 06-seo-performance-and-accessibility/06-01-PLAN.md
-last_updated: "2026-03-28T12:37:35.103Z"
+stopped_at: Completed 06-seo-performance-and-accessibility/06-02-PLAN.md
+last_updated: "2026-03-28T12:41:24.644Z"
 progress:
   total_phases: 6
-  completed_phases: 5
+  completed_phases: 6
   total_plans: 14
-  completed_plans: 13
+  completed_plans: 14
 ---
 
 # Project State
@@ -59,6 +59,7 @@ Plan: Not started
 | Phase 05-content-pages-and-contact P02 | 25 | 2 tasks | 9 files |
 | Phase 05-content-pages-and-contact P03 | 2 | 1 tasks | 4 files |
 | Phase 06-seo-performance-and-accessibility PP01 | 4 | 2 tasks | 15 files |
+| Phase 06-seo-performance-and-accessibility P02 | 2 | 2 tasks | 11 files |
 
 ## Accumulated Context
 
@@ -109,6 +110,8 @@ Recent decisions affecting current work:
 - [Phase 06-seo-performance-and-accessibility]: sharedOG spread required on every page — Next.js openGraph is shallow-merged, pages must re-spread sharedOG or lose the OG image
 - [Phase 06-seo-performance-and-accessibility]: Home page uses title: { absolute } to bypass the title template — only exception in the site
 - [Phase 06-seo-performance-and-accessibility]: Skip link uses sr-only + focus-visible:not-sr-only pattern — invisible until keyboard focus, then visible as accessible landmark
+- [Phase 06-seo-performance-and-accessibility]: Page files use <div> not <main> — layout.tsx owns the single main landmark, page files use div wrappers to prevent nested landmark violations
+- [Phase 06-seo-performance-and-accessibility]: BLUR_DATA_URL constant from data/projects.ts is the single shared blur placeholder for all next/image blur placeholders across the site
 
 ### Pending Todos
 
@@ -121,6 +124,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T12:37:35.098Z
-Stopped at: Completed 06-seo-performance-and-accessibility/06-01-PLAN.md
+Last session: 2026-03-28T12:41:24.639Z
+Stopped at: Completed 06-seo-performance-and-accessibility/06-02-PLAN.md
 Resume file: None

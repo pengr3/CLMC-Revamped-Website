@@ -67,10 +67,10 @@
 
 ### Performance & Accessibility
 
-- [ ] **PERF-01**: Site passes Core Web Vitals thresholds (LCP < 2.5s, CLS < 0.1) on desktop and mobile
-- [ ] **PERF-02**: All pages are fully responsive and usable on mobile (375px+), tablet (768px+), and desktop (1280px+)
-- [ ] **PERF-03**: All project photography and images are served via `next/image` with WebP/AVIF format, correct srcset, and blur placeholders
-- [ ] **A11Y-01**: All pages meet WCAG 2.2 AA baseline: semantic HTML, keyboard navigable, focus indicators visible, all images have descriptive alt text
+- [x] **PERF-01**: Site passes Core Web Vitals thresholds (LCP < 2.5s, CLS < 0.1) on desktop and mobile
+- [x] **PERF-02**: All pages are fully responsive and usable on mobile (375px+), tablet (768px+), and desktop (1280px+)
+- [x] **PERF-03**: All project photography and images are served via `next/image` with WebP/AVIF format, correct srcset, and blur placeholders
+- [x] **A11Y-01**: All pages meet WCAG 2.2 AA baseline: semantic HTML, keyboard navigable, focus indicators visible, all images have descriptive alt text
 
 ---
 
@@ -155,10 +155,10 @@
 | CTCT-03 | Phase 5 | Complete |
 | SEO-01 | Phase 6 | Complete |
 | SEO-02 | Phase 6 | Complete |
-| PERF-01 | Phase 6 | Pending |
-| PERF-02 | Phase 6 | Pending |
-| PERF-03 | Phase 6 | Pending |
-| A11Y-01 | Phase 6 | Pending |
+| PERF-01 | Phase 6 | Complete |
+| PERF-02 | Phase 6 | Complete |
+| PERF-03 | Phase 6 | Complete |
+| A11Y-01 | Phase 6 | Complete |
 
 **Coverage:**
 - v1 requirements: 40 total
