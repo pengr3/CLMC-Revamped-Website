@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { sharedOG } from '@/app/shared-metadata'
+import Link from 'next/link'
 import { AboutHeroSection } from '@/components/sections/AboutHeroSection'
 import { MilestonesSection } from '@/components/sections/MilestonesSection'
 import { ValuesSection } from '@/components/sections/ValuesSection'
@@ -40,6 +41,16 @@ export default function AboutPage() {
 
       <MilestonesSection />
       <ValuesSection />
+
+      {/* Link to CEO page */}
+      <div className="py-3xl px-md md:px-2xl bg-surface-primary text-center">
+        <Link
+          href="/about/ceo"
+          className="inline-block font-body text-text-secondary hover:text-text-primary transition-colors duration-150 text-lg"
+        >
+          Meet Our CEO &rarr;
+        </Link>
+      </div>
     </div>
   )
 }
