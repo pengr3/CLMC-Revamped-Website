@@ -32,11 +32,11 @@
 
 ### Projects Gallery
 
-- [ ] **PROJ-01**: Visitor can view a full project gallery page displaying all CLMC projects as image cards
-- [ ] **PROJ-02**: Visitor can filter the project gallery by category (e.g. residential, commercial, government, infrastructure)
-- [ ] **PROJ-03**: Each project card displays a high-quality image, project name, and brief descriptor
+- [x] **PROJ-01**: Visitor can view a full project gallery page displaying all CLMC projects as image cards
+- [x] **PROJ-02**: Visitor can filter the project gallery by category (e.g. residential, commercial, government, infrastructure)
+- [x] **PROJ-03**: Each project card displays a high-quality image, project name, and brief descriptor
 - [ ] **PROJ-04**: Visitor can open a dedicated per-project detail page with extended project information (scope, description, additional images)
-- [ ] **PROJ-05**: Featured projects section on the Home page links through to the full Projects page
+- [x] **PROJ-05**: Featured projects section on the Home page links through to the full Projects page
 
 ### Content Pages
 
@@ -139,11 +139,11 @@
 | HOME-05 | Phase 3 | Complete |
 | HOME-06 | Phase 3 | Complete |
 | HOME-07 | Phase 3 | Complete |
-| PROJ-01 | Phase 4 | Pending |
-| PROJ-02 | Phase 4 | Pending |
-| PROJ-03 | Phase 4 | Pending |
+| PROJ-01 | Phase 4 | Complete |
+| PROJ-02 | Phase 4 | Complete |
+| PROJ-03 | Phase 4 | Complete |
 | PROJ-04 | Phase 4 | Pending |
-| PROJ-05 | Phase 4 | Pending |
+| PROJ-05 | Phase 4 | Complete |
 | ABOUT-01 | Phase 5 | Pending |
 | ABOUT-02 | Phase 5 | Pending |
 | SVC-01 | Phase 5 | Pending |

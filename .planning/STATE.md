@@ -3,27 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in-progress
-stopped_at: Completed 03-home-page/03-03-PLAN.md
-last_updated: "2026-03-28T07:35:34.642Z"
+stopped_at: Completed 04-projects-gallery/04-01-PLAN.md
+last_updated: "2026-03-28T08:11:33.236Z"
 progress:
   total_phases: 6
   completed_phases: 3
-  total_plans: 7
-  completed_plans: 7
----
-
----
-gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
-status: in-progress
-stopped_at: Completed 03-home-page/03-03-PLAN.md
-last_updated: "2026-03-28T08:00:00.000Z"
-progress:
-  total_phases: 6
-  completed_phases: 2
   total_plans: 9
-  completed_plans: 7
+  completed_plans: 8
 ---
 
 # Project State
@@ -67,6 +53,7 @@ Plan: Completed 03-03
 | Phase 03-home-page P02 | 2 | 2 tasks | 4 files |
 | Phase 03-home-page P01 | 3 | 2 tasks | 6 files |
 | Phase 03-home-page P03 | 5 | 2 tasks | 4 files |
+| Phase 04-projects-gallery P01 | 15 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -99,6 +86,10 @@ Recent decisions affecting current work:
 - [Phase 03-home-page]: CSS-only marquee uses @keyframes translateX(0 to -50%) + w-max flex track + duplicated array — Server Component compatible, no JS
 - [Phase 03-home-page]: @utility animate-marquee in globals.css follows Tailwind v4 CSS-first pattern for custom animation utilities
 - [Phase 03-home-page]: app/page.tsx stays a Server Component — each section manages its own client boundary
+- [Phase 04-projects-gallery]: data/projects.ts is the single source of truth for all project data — both gallery and home page import from it
+- [Phase 04-projects-gallery]: CSS columns masonry chosen over JS-based masonry — zero runtime cost, native CSS, no layout thrash
+- [Phase 04-projects-gallery]: AnimatePresence mode=popLayout for filter transitions — handles enter and exit cleanly as layout recalculates
+- [Phase 04-projects-gallery]: ProjectsGallery is a client component that owns heading and useFadeUp — app/projects/page.tsx stays a Server Component
 
 ### Pending Todos
 
@@ -111,6 +102,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T08:00:00.000Z
-Stopped at: Completed 03-home-page/03-03-PLAN.md
+Last session: 2026-03-28T08:11:33.232Z
+Stopped at: Completed 04-projects-gallery/04-01-PLAN.md
 Resume file: None
