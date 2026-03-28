@@ -1,5 +1,6 @@
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
+import Link from 'next/link'
 import { forwardRef } from 'react'
 
 interface ProjectCardProps {
@@ -73,9 +74,9 @@ const ProjectCard = forwardRef<HTMLDivElement, ProjectCardProps>(
 
     if (href) {
       return (
-        <a href={href} className={sharedClassName}>
+        <Link href={href} className={sharedClassName}>
           {content}
-        </a>
+        </Link>
       )
     }
 
