@@ -56,8 +56,8 @@
 
 ### Contact
 
-- [ ] **CTCT-01**: Visitor can submit an inquiry via a contact form; submission triggers an email delivery to CLMC
-- [ ] **CTCT-02**: CLMC's phone number and email address are visible in the site header or footer on all pages
+- [x] **CTCT-01**: Visitor can submit an inquiry via a contact form; submission triggers an email delivery to CLMC
+- [x] **CTCT-02**: CLMC's phone number and email address are visible in the site header or footer on all pages
 - [x] **CTCT-03**: Visitor can access a dedicated Contact page (/contact) from the navigation
 
 ### SEO
@@ -150,8 +150,8 @@
 | CLIENT-01 | Phase 5 | Complete |
 | TESTI-01 | Phase 5 | Complete |
 | QMS-01 | Phase 5 | Complete |
-| CTCT-01 | Phase 5 | Pending |
-| CTCT-02 | Phase 5 | Pending |
+| CTCT-01 | Phase 5 | Complete |
+| CTCT-02 | Phase 5 | Complete |
 | CTCT-03 | Phase 5 | Complete |
 | SEO-01 | Phase 6 | Pending |
 | SEO-02 | Phase 6 | Pending |
