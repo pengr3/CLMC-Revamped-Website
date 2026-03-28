@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-home-page/03-02-PLAN.md
-last_updated: "2026-03-28T07:26:19.850Z"
+stopped_at: Completed 03-home-page/03-01-PLAN.md
+last_updated: "2026-03-28T07:27:25.444Z"
 progress:
   total_phases: 6
   completed_phases: 2
   total_plans: 7
-  completed_plans: 5
+  completed_plans: 6
 ---
 
 ---
@@ -65,6 +65,7 @@ Plan: Not started
 | Phase 02-animation-infrastructure P01 | 422 | 3 tasks | 5 files |
 | Phase 02-animation-infrastructure P02 | 4 | 2 tasks | 6 files |
 | Phase 03-home-page P02 | 2 | 2 tasks | 4 files |
+| Phase 03-home-page P01 | 3 | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -92,6 +93,8 @@ Recent decisions affecting current work:
 - [Phase 03-home-page]: ServiceCard is a Server Component (no use client) — pure display, keeps client bundle minimal
 - [Phase 03-home-page]: useCountUp uses native IntersectionObserver + rAF — no external library added
 - [Phase 03-home-page]: tabular-nums on count span prevents layout shift during count-up animation
+- [Phase 03-home-page]: buttonVariants helper exported from Button.tsx so Link elements can receive button styles without nesting button inside anchor
+- [Phase 03-home-page]: data-stagger-child placed on wrapper div elements, not directly on ProjectCard component — GSAP hooks scan native DOM
 
 ### Pending Todos
 
@@ -104,6 +107,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T07:26:19.847Z
-Stopped at: Completed 03-home-page/03-02-PLAN.md
+Last session: 2026-03-28T07:27:25.441Z
+Stopped at: Completed 03-home-page/03-01-PLAN.md
 Resume file: None
