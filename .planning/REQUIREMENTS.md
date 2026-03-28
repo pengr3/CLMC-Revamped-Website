@@ -25,8 +25,8 @@
 - [ ] **HOME-01**: Visitor sees a hero section with CLMC's brand statement, tagline, and a primary CTA button above the fold
 - [ ] **HOME-02**: Hero section features full-bleed cinematic project photography with parallax depth effect
 - [ ] **HOME-03**: Home page includes a featured projects teaser section (3–6 selected projects) linking to the full Projects page
-- [ ] **HOME-04**: Home page includes an overview of core services with brief descriptions
-- [ ] **HOME-05**: Home page includes a company credibility section (e.g. years of experience, projects completed, key facts)
+- [x] **HOME-04**: Home page includes an overview of core services with brief descriptions
+- [x] **HOME-05**: Home page includes a company credibility section (e.g. years of experience, projects completed, key facts)
 - [ ] **HOME-06**: Home page includes a client logos strip as social proof
 - [ ] **HOME-07**: Home page includes an inquiry CTA section prompting visitors to get in touch
 
@@ -135,8 +135,8 @@
 | HOME-01 | Phase 3 | Pending |
 | HOME-02 | Phase 3 | Pending |
 | HOME-03 | Phase 3 | Pending |
-| HOME-04 | Phase 3 | Pending |
-| HOME-05 | Phase 3 | Pending |
+| HOME-04 | Phase 3 | Complete |
+| HOME-05 | Phase 3 | Complete |
 | HOME-06 | Phase 3 | Pending |
 | HOME-07 | Phase 3 | Pending |
 | PROJ-01 | Phase 4 | Pending |

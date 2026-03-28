@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 3 context gathered
-last_updated: "2026-03-24T15:43:30.127Z"
+stopped_at: Completed 03-home-page/03-02-PLAN.md
+last_updated: "2026-03-28T07:26:19.850Z"
 progress:
   total_phases: 6
   completed_phases: 2
-  total_plans: 4
-  completed_plans: 4
+  total_plans: 7
+  completed_plans: 5
 ---
 
 ---
@@ -64,6 +64,7 @@ Plan: Not started
 | Phase 01 P02 | 35 | 3 tasks | 4 files |
 | Phase 02-animation-infrastructure P01 | 422 | 3 tasks | 5 files |
 | Phase 02-animation-infrastructure P02 | 4 | 2 tasks | 6 files |
+| Phase 03-home-page P02 | 2 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,9 @@ Recent decisions affecting current work:
 - [Phase 02-animation-infrastructure]: Data attribute API pattern established: [data-fade-up]/[data-clip-reveal]/[data-stagger]+[data-stagger-child] — hooks scan DOM and wire ScrollTriggers automatically
 - [Phase 02-animation-infrastructure]: CSS initial states placed in globals.css outside @layer base — GSAP gsap.set() inside useGSAP synchronizes JS and CSS initial state to prevent hydration mismatch
 - [Phase 02-animation-infrastructure]: useHeroParallax accepts three separate refs (heroRef, bgRef, textRef) for composability; window.innerWidth < 1024 guard disables parallax on mobile
+- [Phase 03-home-page]: ServiceCard is a Server Component (no use client) — pure display, keeps client bundle minimal
+- [Phase 03-home-page]: useCountUp uses native IntersectionObserver + rAF — no external library added
+- [Phase 03-home-page]: tabular-nums on count span prevents layout shift during count-up animation
 
 ### Pending Todos
 
@@ -100,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-24T15:43:30.123Z
-Stopped at: Phase 3 context gathered
-Resume file: .planning/phases/03-home-page/03-CONTEXT.md
+Last session: 2026-03-28T07:26:19.847Z
+Stopped at: Completed 03-home-page/03-02-PLAN.md
+Resume file: None
