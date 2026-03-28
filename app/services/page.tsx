@@ -1,9 +1,31 @@
+import type { Metadata } from 'next'
+import { ServiceDetailSection } from '@/components/sections/ServiceDetailSection'
+
+export const metadata: Metadata = {
+  title: 'Our Services | CLMC',
+  description:
+    'Explore the full range of construction and management services offered by CLMC — commercial fit-outs, residential renovations, maintenance, repairs, and property management.',
+}
+
 export default function ServicesPage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-surface-primary">
-      <h1 className="font-display text-4xl font-bold tracking-tight text-text-primary">
-        CLMC — Services
-      </h1>
-    </div>
+    <main>
+      {/* Page hero */}
+      <div className="pt-5xl pb-4xl px-md md:px-2xl bg-surface-secondary">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-xl">
+            Our Services
+          </h1>
+          <p className="font-body text-lg text-text-secondary max-w-2xl leading-relaxed">
+            From full-scope interior construction to long-term property management, CLMC
+            delivers a comprehensive range of services that cover every stage of a building&apos;s
+            lifecycle. Each service is backed by our experienced project management team and
+            decades of hands-on expertise in the Philippine market.
+          </p>
+        </div>
+      </div>
+
+      <ServiceDetailSection />
+    </main>
   )
 }
